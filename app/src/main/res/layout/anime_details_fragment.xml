@@ -1,0 +1,103 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200">
+
+    <TextView
+      android:id="@+id/title"
+      style="@style/TextAppearance.AppCompat.Title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginVertical="50dp"
+      android:layout_marginBottom="20dp"
+      android:text="@{anime.title}"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/image" />
+
+    <TextView
+      android:id="@+id/type"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="15dp"
+      android:text="@{`Type: ` + anime.type}"
+      android:textSize="16sp"
+      app:layout_constraintEnd_toEndOf="@id/image"
+      app:layout_constraintStart_toStartOf="@id/image"
+      app:layout_constraintTop_toBottomOf="@+id/title"
+      tools:text="type" />
+
+    <TextView
+      android:id="@+id/rating"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="15dp"
+      android:text="@{`Rating: ` + anime.rating}"
+      android:textSize="16sp"
+      app:layout_constraintEnd_toEndOf="@id/image"
+      app:layout_constraintStart_toStartOf="@id/image"
+      app:layout_constraintTop_toBottomOf="@+id/type"
+      tools:text="rating" />
+
+    <TextView
+      android:id="@+id/totalEpisodes"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="15dp"
+      android:text="@{`Total Episodes: ` + anime.totalEpisodes}"
+      android:textSize="16sp"
+      app:layout_constraintEnd_toEndOf="@id/image"
+      app:layout_constraintStart_toStartOf="@id/image"
+      app:layout_constraintTop_toBottomOf="@+id/rating"
+      tools:text="total episodes" />
+
+    <TextView
+      android:id="@+id/seasonName"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="15dp"
+      android:text="@{`Season name: ` + anime.seasonName}"
+      android:textSize="16sp"
+      app:layout_constraintEnd_toEndOf="@id/image"
+      app:layout_constraintStart_toStartOf="@id/image"
+      app:layout_constraintTop_toBottomOf="@+id/totalEpisodes"
+      tools:text="season name" />
+
+    <TextView
+      android:id="@+id/seasonYear"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="15dp"
+      android:text="@{`Season year: ` + anime.seasonYear}"
+      android:textSize="16sp"
+      app:layout_constraintEnd_toEndOf="@id/image"
+      app:layout_constraintStart_toStartOf="@id/image"
+      app:layout_constraintTop_toBottomOf="@+id/seasonName"
+      tools:text="season year" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+      android:id="@+id/image"
+      android:layout_width="300dp"
+      android:layout_height="300dp"
+      android:layout_marginVertical="40dp"
+      android:scaleType="centerCrop"
+      app:layout_constraintBottom_toTopOf="@id/title"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+  <data>
+
+    <variable
+      name="anime"
+      type="com.erx.animeviewer.model.Anime" />
+  </data>
+</layout>

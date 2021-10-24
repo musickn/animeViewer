@@ -1,0 +1,144 @@
+{
+  "anime": [
+    {
+      "mal_id": 35834,
+      "title": "Angolmois: Genkou Kassenki",
+      "video_url": "https:\/\/myanimelist.net\/anime\/35834\/Angolmois__Genkou_Kassenki\/video",
+      "url": "https:\/\/myanimelist.net\/anime\/35834\/Angolmois__Genkou_Kassenki",
+      "image_url": "https:\/\/cdn.myanimelist.net\/images\/anime\/1469\/95052.jpg?s=bc9b705917c4a113edb6d22f18e4a415",
+      "type": "TV",
+      "watching_status": 1,
+      "score": 0,
+      "watched_episodes": 0,
+      "total_episodes": 12,
+      "airing_status": 2,
+      "season_name": "Summer",
+      "season_year": 2018,
+      "has_episode_video": true,
+      "has_promo_video": true,
+      "has_video": true,
+      "is_rewatching": false,
+      "tags": null,
+      "rating": "PG-13",
+      "start_date": "2018-07-11T00:00:00+00:00",
+      "end_date": "2018-09-26T00:00:00+00:00",
+      "watch_start_date": null,
+      "watch_end_date": null,
+      "days": null,
+      "storage": null,
+      "priority": "Low",
+      "added_to_list": false,
+      "studios": [
+        {
+          "mal_id": 951,
+          "type": "anime",
+          "name": "NAZ",
+          "url": "https:\/\/myanimelist.net\/anime\/producer\/951\/NAZ"
+        }
+      ],
+      "licensors": [
+      ],
+      "genres": [
+        {
+          "mal_id": 0,
+          "type": "anime",
+          "name": "Action",
+          "url": "https:\/\/myanimelist.net\/anime\/genre\/Action"
+        },
+        {
+          "mal_id": 0,
+          "type": "anime",
+          "name": "Drama",
+          "url": "https:\/\/myanimelist.net\/anime\/genre\/Drama"
+        }
+      ],
+      "demographics": [
+      ]
+    },
+    {
+      "mal_id": 31821,
+      "title": "Arslan Senki (TV): Fuujin Ranbu",
+      "video_url": "https:\/\/myanimelist.net\/anime\/31821\/Arslan_Senki_TV__Fuujin_Ranbu\/video",
+      "url": "https:\/\/myanimelist.net\/anime\/31821\/Arslan_Senki_TV__Fuujin_Ranbu",
+      "image_url": "https:\/\/cdn.myanimelist.net\/images\/anime\/12\/80681.jpg?s=cf7182ca84cd1258e2d4a47e1b218674",
+      "type": "TV",
+      "watching_status": 1,
+      "score": 0,
+      "watched_episodes": 4,
+      "total_episodes": 8,
+      "airing_status": 2,
+      "season_name": "Summer",
+      "season_year": 2016,
+      "has_episode_video": false,
+      "has_promo_video": true,
+      "has_video": true,
+      "is_rewatching": false,
+      "tags": null,
+      "rating": "PG-13",
+      "start_date": "2016-07-03T00:00:00+00:00",
+      "end_date": "2016-08-21T00:00:00+00:00",
+      "watch_start_date": null,
+      "watch_end_date": null,
+      "days": null,
+      "storage": null,
+      "priority": "Low",
+      "added_to_list": false,
+      "studios": [
+        {
+          "mal_id": 839,
+          "type": "anime",
+          "name": "LIDENFILMS",
+          "url": "https:\/\/myanimelist.net\/anime\/producer\/839\/LIDENFILMS"
+        }
+      ],
+      "licensors": [
+        {
+          "mal_id": 102,
+          "type": "anime",
+          "name": "Funimation",
+          "url": "https:\/\/myanimelist.net\/anime\/producer\/102\/Funimation"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 0,
+          "type": "anime",
+          "name": "Action",
+          "url": "https:\/\/myanimelist.net\/anime\/genre\/Action"
+        },
+        {
+          "mal_id": 0,
+          "type": "anime",
+          "name": "Adventure",
+          "url": "https:\/\/myanimelist.net\/anime\/genre\/Adventure"
+        },
+        {
+          "mal_id": 0,
+          "type": "anime",
+          "name": "Drama",
+          "url": "https:\/\/myanimelist.net\/anime\/genre\/Drama"
+        },
+        {
+          "mal_id": 0,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https:\/\/myanimelist.net\/anime\/genre\/Fantasy"
+        },
+        {
+          "mal_id": 0,
+          "type": "anime",
+          "name": "Supernatural",
+          "url": "https:\/\/myanimelist.net\/anime\/genre\/Supernatural"
+        }
+      ],
+      "demographics": [
+        {
+          "mal_id": 0,
+          "type": "anime",
+          "name": "Shounen",
+          "url": "https:\/\/myanimelist.net\/anime\/genre\/Shounen"
+        }
+      ]
+    }
+  ]
+}
